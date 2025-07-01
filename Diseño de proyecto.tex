@@ -1,0 +1,50 @@
+\documentclass{article}
+
+%Symbols
+\usepackage{recycle}
+
+%Margins
+\addtolength{\voffset}{-1.5cm}
+\addtolength{\hoffset}{-1.5cm}
+\addtolength{\textwidth}{3cm}
+\addtolength{\textheight}{3cm}
+
+%Header-Footer
+\usepackage{fancyhdr}
+%Header Info
+\lhead{Alumno: Indra Gabriel Valencia Morales}
+%Footer Info
+\pagenumbering{gobble}
+\footskip = 50pt
+\renewcommand{\headrulewidth}{1pt}
+
+\pagestyle{fancyplain}
+
+\begin{document}
+\section*{\LARGE{Diseño de proyectos}}
+
+
+\begin{enumerate}
+      \item Para este proyecto me gustaria realizar un script de automatizacion para archivos, el comportamiento de este script sera que en un directorio asignado identificaria los tipos de archivos (.pdf, .txt, etc) y crearia directorios para cada tipo de archivo donde moveria todos los archivos de un mismo tipo a su respectivo directorio creado, esto excluiria directorios ya creados previamente, es decir, el script solo aplicara para archivos.
+
+  \item En un principio el proyecto que queria realizar era una especie de guia para el juego de blackjack,  iba a funcionar basandose en la estrategia estandar del juego para dar resultados de jugadas optimas en base a las cartas que seria datos proporcionados. Sin embargo, tras considerarlo llegue a la conclusion de que no era util y despues pense en un problema personal que tuviera yo mismo y es ahi cuando mire mi carpeta de descargas donde tengo cientos de archivos utiles pero que estan perdidos entre todos los demas, de igual forma pienso que en la epoca actual muchas personas sufren esta problematica por lo que poner algo de orden en la maraña de datos que es nuestra pc seria muy util para poder diferenciar los distintos archivos que tenemos y cuales de ellos siguen siendo de utilidad.
+
+  \item A continuacion respondere preguntas relacionadas al objetivo del proyecto
+      \begin{enumerate}
+      \item ¿Que quieres lograr con tu proyecto? ¿Qua problema o situación estas respondiendo?\\
+      El objetivo de este proyecto es lograr crear un clasificador de archivos con la utilidad que pueda ser usado para alojar archivos dependiendo de su tipo respondiendo al problema de basura digital o "desorden digital" de los equipos
+
+      \item ¿Para quién estás programando? ¿Quién es el usuario final?\\
+      Este proyecto seria para uso general y para cualquier persona que guste clasificar su informacion, ya que con simples instrucciones podria reorganizar sus archivos adecuadamente
+
+      \item ¿Qué decisiones necesita tomar el programa para funcionar?\\
+      Pues para empezar la correcta designacion del tipo de archivo y la creacion de un unico directorio para todos los tipos de archivos, asi como el manejo de errores para cuando existan directorios previamente creador en el directorio a clasificar.
+
+      \item ¿De qué manera se puede romper el programa? ¿Cómo puedes prevenir que el usuario hackeé tu programa? ¿Cómo puedes validar los datos que te brinda el usuario?\\
+      Creo que lo mas probable es que el programa pueda romperse con archivos no reconocidos adecuadamente, archivos ocultos o clasificar archivos incorrectamente. No creo que el usuario encuentre alguna utilidad en hackear el programa y para validar los datos del usuario creo que utilizaria la verificacion de superusuario que viene incorporada en linux
+
+      \item ¿Cómo puedes a prevenir los sesgos (racismo, sexismo, colonialismo, discriminación a personas con discapacidades, etc.) en tu proyecto?\\
+      Dudo mucho que un simple clasificador de textos tenga este tipo de problematicas y tampoco se me ocurre nada para prevenirlo.
+    \end{enumerate}
+\end{enumerate}
+\end{document}
